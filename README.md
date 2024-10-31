@@ -15,6 +15,16 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+-----------------------------------------------------------------------------------------------
+
+The runtime complexity should be $O(V^2)$ because it is looking at the vertices and not the edges
+
+First it enters a for loop that runs the length of the matrix which would be V time.
+
+Then it enters a second for loop that also runs the length of the matrix, which is another V time.
+
+so the final complexity is $O(V*V) = O(V^2)$
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
