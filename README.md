@@ -25,6 +25,13 @@ Then it enters a second for loop that also runs the length of the matrix, which 
 
 so the final complexity is $O(V*V) = O(V^2)$
 
+
+I used this link for building matrices in javascript so I could test it with specific matrices. (https://github.com/bradtraversy/traversy-js-challenges/blob/main/08-binary-trees-graphs/11-adjacency-matrix-adjacency-list/readme.md)
+
+I was getting a weird error with my program and Ali was a good help in figuring out just what was wrong, the fixes are marked in the code
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
